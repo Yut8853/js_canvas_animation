@@ -17,5 +17,10 @@ function setup() {
 }
 
 function draw() {
+  ctx.strokeStyle = '#fff'
+  ctx.beginPath();
+  ctx.fillRect(100, 100, 100, 100)
 
+  ctx.beginPath();
+  ctx.fillRect(300, 300, 100, 100)
 }
