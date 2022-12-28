@@ -17,10 +17,41 @@ function setup() {
 }
 
 function draw() {
-  ctx.strokeStyle = '#fff'
-  ctx.beginPath();
-  ctx.fillRect(100, 100, 100, 100)
+  // ctx.beginPath();
+  // ctx.fillRect(100, 100, 100, 100)
+  
+  // ctx.beginPath();
+  // ctx.fillRect(300, 300, 100, 100)
+  
+  // ctx.beginPath()
+  // ctx.strokeStyle = '#fff'
+  // ctx.arc(300, 300, 100, 0, Math.PI * 2)
+  // ctx.stroke()
+
+  // ctx.beginPath()
+  // ctx.fillStyle = '#fff'
+  // ctx.arc(300, 300, 100, 0, Math.PI * 2)
+  // ctx.fill()
+
+  // ctx.beginPath()
+  // ctx.strokeStyle = '#fff'
+  // ctx.arc(canvas.width / 2, canvas.height / 2, 100, 0, Math.PI * 2)
+  // ctx.stroke()
+
+  // ctx.save();
+  // ctx.lineWidth = 10
+  // ctx.beginPath()
+  // ctx.strokeStyle = '#f00'
+  // ctx.arc(canvas.width / 2, canvas.height / 2, 150, 0, Math.PI * 2)
+  // ctx.stroke()
+  // ctx.restore();
+
+  // ctx.beginPath()
+  // ctx.strokeStyle = '#fff'
+  // ctx.arc(canvas.width / 2, canvas.height / 2, 200, 0, Math.PI * 2)
+  // ctx.stroke()
 
   ctx.beginPath();
-  ctx.fillRect(300, 300, 100, 100)
+  ctx.ellipse(canvas.width / 2, canvas.height / 2, 150, 50, 0, 0, Math.PI * 2)
+  ctx.stroke()
 }
